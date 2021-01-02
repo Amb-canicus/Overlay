@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    background-image: url(/conejos1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: indianred;
+    left: -250px;
+    transition:.7s;
+    
+}
+.nav a{
+    display: block;
+    color: ivory;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav button{
+    margin-left: 220px;
+}
+.nav a:hover{
+    animation: pulse;
+    animation-duration: 4s;
+}
+.nav button:hover{
+    background-color: black;
+    color: rgb(177, 44, 3);
+    font-size: larger;
+    cursor: pointer;
+}
+.content{
+    margin-left: 0px;
+    height: 50px;
+    width: 100px;
+}
+.content button{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    color: orangered;
+    background-color: rgb(5, 5, 5);
+   
+}
+
+.content button:hover{
+    cursor: pointer;
+}
